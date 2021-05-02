@@ -1,0 +1,37 @@
+
+#Configuration
+spring:
+   application:
+      name: Bookservice
+server:
+   port: 8090
+
+#DEBUGING
+logging:
+   level:
+      org: 
+         springframework:
+                     web: DEBUG
+
+#Data
+apipothi:
+   bookdescription:
+         Demo project to Read the data from Application properties file in Spring Boot
+
+   bookid: 1,2,3,4,5,6,7,8,9
+
+   bookprice:
+            100,200,300,400,500,600,700,800,900
+   booksname:
+            JAVA,Microservice,Webservices,Python,Go,Spring,Springboot,JSF,Struts
+   
+      
+   bookswithprice:
+                  '{
+                     JAVA: "900", 
+                     Microservice: "901", 
+                     Python: "902"
+                    }'
+   booknotabalable:
+            true
+
